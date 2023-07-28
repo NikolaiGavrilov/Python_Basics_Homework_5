@@ -13,6 +13,6 @@ def f(a, b) -> int:
         result *= f(a,b-1)
     return result
 
-a = 3
-b = 5
+a = int(input('Input your number: '))
+b = int(input('Input desired positive degree: '))
 print(f(a,b))

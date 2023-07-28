@@ -16,6 +16,6 @@ def sum(a, b) -> int:
     elif b < 0:
         return sum(a-1, b+1)
 
-a = 3
-b = 5
+a = int(input('Input your first number: '))
+b = int(input('Input your second number: '))
 print(sum(a, b))
